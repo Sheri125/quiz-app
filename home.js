@@ -12,5 +12,10 @@ showData();
 
 const logout = () => {
     localStorage.clear();
-    window.location.href = '../signin.html'
+
+    
+    setTimeout(() => {
+        // loader.style.display = "none";
+    window.location.href = "..signin.html"
+      }, 1500);
 }
